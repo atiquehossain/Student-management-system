@@ -5,7 +5,7 @@
 include('database_connection.php');
 
 session_start();
-
+//redirect login page
 if(!isset($_SESSION["admin_id"]))
 {
   header('location:login.php');
